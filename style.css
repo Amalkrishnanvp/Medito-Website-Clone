@@ -42,7 +42,6 @@
   font-size: 14px;
 }
 .section1 {
-  text-align: center;
   margin-bottom: 75px;
 }
 .heading1 {
@@ -88,27 +87,37 @@
   margin-right: 4px;
 }
 
-@media (max-width: 856px) {
+/* breakpoint of xl: larger devices(larger laaptops and small desktop monitors) - 992px to 1200px */
+@media (max-width: 1200px) {
+}
+
+/* breakpoint of lg: medium devices(tablets and small laaptops) - 768px to 992px */
+@media (max-width: 992px) {
+}
+
+/* breakpoint of md: small devices(small tablets and larger mobile phones) - 576px to 768px */
+@media (max-width: 768px) {
   header {
     position: fixed;
     width: 100%;
   }
   .container {
-    padding-top: 55px;
+    padding-top: 65px;
   }
   .heading1 {
-    font-size:40px ;
+    font-size: 40px;
     line-height: 50px;
   }
+}
 
-}
-@media (max-width: 464px) { 
-.btn1{
-  width: 100%;
-}
-.btn2{
-  width: 100%;
-  margin-left: 0;
-  margin-top: 20px;
-}
+/* breakpoint of sm: x-small devices(small android phones) - below 576px */
+@media (max-width: 576px) {
+  .btn1 {
+    width: 100%;
+  }
+  .btn2 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
 }
