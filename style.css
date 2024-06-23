@@ -86,6 +86,48 @@
 .unordered-list li {
   margin-right: 4px;
 }
+.section2 {
+  background-color: #f4f4fc;
+  padding-top: 80px;
+}
+.heading2 {
+  margin-bottom: 80px;
+}
+.date {
+  font-size: 14px;
+  margin: 20px 0px 10px;
+  opacity: 0.5;
+}
+.para1 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 2rem;
+  margin-bottom: 5px;
+}
+.para2 {
+  font-size: 18px;
+  color: black;
+}
+.article-btn {
+  background-color: #e2e3e3;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.article-div {
+  padding: 75px 0px;
+}
+.navbar-toggler {
+  border: none !important;
+  color: black;
+}
+.navbar-toggler:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
 
 /* breakpoint of xl: larger devices(larger laaptops and small desktop monitors) - 992px to 1200px */
 @media (max-width: 1200px) {
@@ -93,10 +135,6 @@
 
 /* breakpoint of lg: medium devices(tablets and small laaptops) - 768px to 992px */
 @media (max-width: 992px) {
-}
-
-/* breakpoint of md: small devices(small tablets and larger mobile phones) - 576px to 768px */
-@media (max-width: 768px) {
   header {
     position: fixed;
     width: 100%;
@@ -107,6 +145,20 @@
   .heading1 {
     font-size: 40px;
     line-height: 50px;
+  }
+  .navbar-toggler {
+    margin-right: 20px;
+  }
+}
+
+/* breakpoint of md: small devices(small tablets and larger mobile phones) - 576px to 768px */
+@media (max-width: 768px) {
+  .section2 {
+    padding: 80px 15px 0px;
+  }
+  .section1 {
+    padding-right: 15px;
+    padding-left: 15px;
   }
 }
 
