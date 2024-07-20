@@ -80,9 +80,9 @@ body {
 .nav-item a {
   color: black;
 }
-.home a {
+/* .home a {
   font-weight: bold;
-}
+} */
 .unordered-list {
   align-items: center;
 }
@@ -222,12 +222,11 @@ footer {
 .navigate-container {
   margin-bottom: 60px;
 }
+.bold-class {
+  font-weight: bold !important;
+}
 
 /* responsiveness */
-
-/* breakpoint of xl: larger devices(larger laaptops and small desktop monitors) - 992px to 1200px */
-@media (max-width: 1200px) {
-}
 
 /* breakpoint of lg: medium devices(tablets and small laaptops) - 768px to 992px */
 @media (max-width: 992px) {

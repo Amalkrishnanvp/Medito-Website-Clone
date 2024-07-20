@@ -25,4 +25,21 @@ document.addEventListener("DOMContentLoaded", () => {
 // displaying the navbar
 function displayNavbar(data) {
   document.querySelector(".navigate-bar").innerHTML = data;
+  boldFunction();
+}
+
+function boldFunction() {
+  // select the path the current page
+  const path = window.location.pathname;
+
+  // get all links
+  const links = document.querySelectorAll(".focus-class");
+  console.log(links);
+  // iterate over the links to find our current page path
+  links.forEach((link) => {
+    // checking the path
+    if (link.getAttribute("href") === path) {
+      link.classList.add("bold-class");
+    }
+  });
 }
