@@ -224,6 +224,12 @@ footer {
 .bold-class {
   font-weight: bold !important;
 }
+header {
+  z-index: 999;
+}
+.date {
+  z-index: 0;
+}
 
 /* responsiveness */
 
